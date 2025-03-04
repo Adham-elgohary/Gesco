@@ -1,0 +1,166 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-rgb: 255, 255, 255;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+}
+
+/* RTL support */
+[dir="rtl"] .space-x-6 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 1;
+}
+
+[dir="rtl"] .space-x-6 {
+  margin-left: 0;
+  margin-right: calc(1.5rem * var(--tw-space-x-reverse));
+}
+
+/* RTL support for grid */
+[dir="rtl"] .grid {
+  direction: rtl;
+}
+
+/* RTL support for logo and company name */
+[dir="rtl"] .mr-2 {
+  margin-right: 0;
+  margin-left: 0.5rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/* Custom button styles */
+.custom-button {
+  background-color: #98c349;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  position: relative;
+  overflow: hidden;
+  font-size: 0.875rem;
+}
+
+.text-size {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+@media (min-width: 640px) {
+  .custom-button {
+    font-size: 1rem;
+  }
+}
+
+.custom-button::before {
+  content: "";
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, #98c349, #87ceeb);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.custom-button:hover::before {
+  bottom: 0;
+}
+
+/* Responsive menu styles */
+@media (max-width: 768px) {
+  .md\:hidden.fixed.inset-0 {
+    background-color: rgba(152, 195, 73, 0.9); /* #98C349 with opacity */
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .md\:hidden.fixed.inset-0 .max-w-md {
+    width: 50vw;
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Language selector hover effect */
+.language-selector button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Arabic button styles */
+.arabic-button {
+  font-size: 0.875rem; /* Slightly smaller font size for Arabic */
+  padding: 0.5rem 0.75rem; /* Adjusted padding */
+  line-height: 1.25; /* Tighter line height */
+}
+
+@media (min-width: 1024px) {
+  .arabic-button {
+    font-size: 1rem; /* Larger font size for larger screens */
+  }
+}
+
+/* RTL support for space utilities */
+[dir="rtl"] .space-x-2 > :not([hidden]) ~ :not([hidden]),
+[dir="rtl"] .space-x-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 1;
+}
+
+[dir="rtl"] .space-x-2,
+[dir="rtl"] .space-x-4 {
+  margin-left: 0;
+}
+
+[dir="rtl"] .space-x-2 {
+  margin-right: calc(0.5rem * var(--tw-space-x-reverse));
+}
+
+[dir="rtl"] .space-x-4 {
+  margin-right: calc(1rem * var(--tw-space-x-reverse));
+}
+
+/* Ensure RTL text alignment */
+[dir="rtl"] {
+  text-align: right;
+}
