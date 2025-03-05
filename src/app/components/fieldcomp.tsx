@@ -40,7 +40,7 @@ return (
                 expandedFields.includes(field.name) ? "max-h-[500px] opacity-100 py-4" : "max-h-0 opacity-0"
             } overflow-hidden px-6 bg-gray-100 text-gray-700 text-lg`}
             >
-            {field.descriptions.map((desc: string | number | bigint | boolean | ReactElement<unknown, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | Promise<string | number | bigint | boolean | ReactPortal | ReactElement<unknown, string | JSXElementConstructor<any>> | Iterable<ReactNode> | null | undefined> | null | undefined, i: Key | null | undefined) => (
+            {field.descriptions.map((desc: string | number | bigint | boolean | ReactElement<unknown, string | JSXElementConstructor<string>> | Iterable<ReactNode> | ReactPortal | Promise<string | number | bigint | boolean | ReactPortal | ReactElement<unknown, string | JSXElementConstructor<string>> | Iterable<ReactNode> | null | undefined> | null | undefined, i: Key | null | undefined) => (
                 <p key={i} className="mb-2">{desc}</p>
             ))}
             </div>

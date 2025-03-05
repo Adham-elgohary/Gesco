@@ -3,60 +3,55 @@
 import { useState } from "react";
 import { useLanguage } from "../contexts/LanguageContext";
 import { getClientDictionary } from "../dictionaries/clientDictionary";
-import { sendMail } from "../api/contact/mail"; 
 
 export default function Contact() {
   const { lang } = useLanguage();
   const dict = getClientDictionary(lang as "en" | "ar");
 
   // Form State
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    question: "",
-  });
-
+  const [formData, setFormData] = useState({ name: "", email: "", question: "" });
+  const [message, setMessage] = useState<string | null>(null);
+  const [remainingEmails, setRemainingEmails] = useState<number | null>(null);
   const [loading, setLoading] = useState(false);
-  const [message, setMessage] = useState("");
 
   // Handle Input Changes
-  const handleChange = (e: { target: { name: any; value: any; }; }) => {
+  const handleChange = (e: { target: { name: string; value: string } }) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
+  
+
   // Handle Form Submission
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = async (e: { preventDefault: () => void }) => {
     e.preventDefault();
+    setMessage(null);
     setLoading(true);
-    setMessage("");
 
-    try {
-      const response = await fetch("/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData),
-      });
+    const response = await fetch("/api/contact", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(formData),
+    });
 
-      const result = await response.json();
-
-      if (result.success) {
-        setMessage("Your message has been sent successfully!");
-        setFormData({ name: "", email: "", question: "" }); // Reset form
-      } else {
-        setMessage("Failed to send message. Please try again.");
-      }
-    } catch (error) {
-      setMessage("Error sending message. Please try again.");
-    } finally {
-      setLoading(false);
+    const data = await response.json();
+    setLoading(false);
+    if (data.success) {
+      setMessage(`✅ ${data.message}`);
+      setRemainingEmails(data.remaining);
+      setTimeout(() => setRemainingEmails(null), 5000); // Hide counter after 5 seconds
+      setFormData({ name: "", email: "", question: "" });
+    } else {
+      setMessage(`❌ ${data.message}`);
     }
   };
-
   return (
-    <div className="container mx-auto px-6 py-12">
-      {/* Question Form */}
+<div className="container mx-auto px-6 py-12">
       <div className="bg-gray-100 p-6 rounded-lg shadow-md mb-12">
         <h2 className="text-2xl font-bold mb-4">{dict.contact.form.title}</h2>
+        
+        {remainingEmails !== null && (
+          <p className="mb-4 text-lg text-gray-700">📩 {remainingEmails} emails remaining today</p>
+        )}
         <form onSubmit={handleSubmit} className="space-y-4">
           <input
             type="text"
@@ -84,12 +79,12 @@ export default function Contact() {
             required
             className="w-full p-2 border border-gray-300 rounded-md"
           />
-          <button
+            <button
             type="submit"
             className="w-full bg-blue-600 text-white py-2 rounded-md hover:bg-blue-700 transition"
             disabled={loading}
           >
-            {loading ? "Sending..." : dict.contact.form.submit}
+          {loading ? "Sending..." : dict.contact.form.submit}
           </button>
         </form>
         {message && <p className="text-center text-green-600 mt-4">{message}</p>}

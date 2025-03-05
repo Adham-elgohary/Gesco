@@ -44,7 +44,12 @@ const dictionaries = {
             "Academic Accreditation.",
             "PC Programs.",
             "Technical support and consulting."
-          ]
+          ],
+          explaination: [
+            "The company works to improve the quality of higher education by providing integrated solutions that support academic institutions in achieving international academic accreditation standards such as ABET. These solutions include curriculum review and development, academic program assessment, and specialized consultations that help universities and institutes enhance educational outcomes to meet market demands.",
+            "The company also offers advanced electronic platforms such as the Instructor Course Assessment Tool (iCAT) that help evaluate courses and analyze student performance according to modern academic standards. Additionally, the company provides training programs and workshops aimed at enhancing faculty teaching skills and preparing them to use modern interactive teaching methods.",
+            "The company is committed to providing innovative educational strategies that help improve the learning experience by adopting the latest teaching technologies, such as interactive education and project-based learning, to prepare academic staff to meet the requirements of the Fourth Industrial Revolution.",
+          ],
         },
         {
           name: "Training and Human Development",
@@ -54,7 +59,12 @@ const dictionaries = {
             "Active Learning.",
             "Radiation Security.",
             "Physical Protection."
-          ]
+          ],
+          explaination: [
+            "The company works to improve the quality of higher education by providing integrated solutions that support academic institutions in achieving international academic accreditation standards such as ABET. These solutions include curriculum review and development, academic program assessment, and specialized consultations that help universities and institutes enhance educational outcomes to meet market demands.",
+            "The company also offers advanced electronic platforms such as the Instructor Course Assessment Tool (iCAT) that help evaluate courses and analyze student performance according to modern academic standards. Additionally, the company provides training programs and workshops aimed at enhancing faculty teaching skills and preparing them to use modern interactive teaching methods.",
+            "The company is committed to providing innovative educational strategies that help improve the learning experience by adopting the latest teaching technologies, such as interactive education and project-based learning, to prepare academic staff to meet the requirements of the Fourth Industrial Revolution.",
+          ],
         },
         {
           name: "Consulting and technical support",
@@ -62,7 +72,12 @@ const dictionaries = {
             "Radioecology.",
             "Strategic Planning.",
             "Radiation and Power."
-          ]
+          ],
+          explaination: [
+            "The company works to improve the quality of higher education by providing integrated solutions that support academic institutions in achieving international academic accreditation standards such as ABET. These solutions include curriculum review and development, academic program assessment, and specialized consultations that help universities and institutes enhance educational outcomes to meet market demands.",
+            "The company also offers advanced electronic platforms such as the Instructor Course Assessment Tool (iCAT) that help evaluate courses and analyze student performance according to modern academic standards. Additionally, the company provides training programs and workshops aimed at enhancing faculty teaching skills and preparing them to use modern interactive teaching methods.",
+            "The company is committed to providing innovative educational strategies that help improve the learning experience by adopting the latest teaching technologies, such as interactive education and project-based learning, to prepare academic staff to meet the requirements of the Fourth Industrial Revolution.",
+          ],
         },
         {
           name: "Scientific and Medical Equipment",
@@ -70,7 +85,12 @@ const dictionaries = {
             "Scientific and Medical Equipment.",
             "ًEducational Laboratories.",
             "Medical Equipment."
-          ]
+          ],
+          explaination: [
+            "The company works to improve the quality of higher education by providing integrated solutions that support academic institutions in achieving international academic accreditation standards such as ABET. These solutions include curriculum review and development, academic program assessment, and specialized consultations that help universities and institutes enhance educational outcomes to meet market demands.",
+            "The company also offers advanced electronic platforms such as the Instructor Course Assessment Tool (iCAT) that help evaluate courses and analyze student performance according to modern academic standards. Additionally, the company provides training programs and workshops aimed at enhancing faculty teaching skills and preparing them to use modern interactive teaching methods.",
+            "The company is committed to providing innovative educational strategies that help improve the learning experience by adopting the latest teaching technologies, such as interactive education and project-based learning, to prepare academic staff to meet the requirements of the Fourth Industrial Revolution.",
+          ],
         },
       ],
     },

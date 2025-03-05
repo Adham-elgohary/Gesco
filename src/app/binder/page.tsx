@@ -11,7 +11,7 @@ export default function Binder() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-white text-gray-800">
-      {/* Animated Construction Icon /}
+      {/* Animated Construction Icon */}
       <motion.div
         initial={{ y: -15 }}
         animate={{ y: 15 }}
@@ -26,7 +26,7 @@ export default function Binder() {
         <FaHardHat />
       </motion.div>
 
-      {/ Animated Title /}
+      {/* Animated Title */}
       <motion.h1
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -36,7 +36,7 @@ export default function Binder() {
         {dict.binder.title}
       </motion.h1>
 
-      {/ Animated Description */}
+      {/* Animated Description */}
       <motion.p
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
