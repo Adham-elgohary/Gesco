@@ -126,7 +126,7 @@ const Header = () => {
         {/* Mobile Menu */}
         {isMenuOpen && (
           <div className="md:hidden fixed inset-0 z-50">
-            <div className="absolute inset-0 bg-green-500 bg-opacity-90 transition-opacity ease-in-out duration-300"></div>
+            <div className="absolute inset-0 transition-opacity ease-in-out duration-500"></div>
             <div className={`absolute inset-y-0 ${lang === "ar" ? "left-0" : "right-0"} max-w-full flex`}>
               <div className="relative w-screen max-w-sm">
                 <div
