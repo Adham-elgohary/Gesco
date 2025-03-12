@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { useLanguage } from "../contexts/LanguageContext"
 import { getClientDictionary } from "../dictionaries/clientDictionary"
 import Image from "next/image"
@@ -16,42 +16,44 @@ const fieldImages = [FieldImg1, FieldImg2, FieldImg3, FieldImg4]
 export default function Fields() {
   const { lang } = useLanguage()
   const dict = getClientDictionary(lang as "en" | "ar")
+  const [expandedField, setExpandedField] = useState<string | null>(null)
+  const [isMobile, setIsMobile] = useState<boolean>(false)
 
-  // Allow multiple expanded fields
-  const [expandedFields, setExpandedFields] = useState<string[]>([])
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768)
+    }
 
-  const toggleField = (field: string) => {
-    setExpandedFields((prev) =>
-      prev.includes(field) ? prev.filter((f) => f !== field) : [...prev, field]
-    )
+    handleResize()
+    window.addEventListener("resize", handleResize)
+    return () => window.removeEventListener("resize", handleResize)
+  }, [])
+
+  const toggleExpand = (field: string) => {
+    if (isMobile) {
+      setExpandedField(prev => (prev === field ? null : field))
+    }
   }
 
   return (
     <div className="container mx-auto px-6 py-12">
-      <h1 className="text-4xl font-bold text-center mb-8 text-blue-600">{dict.fields.title}</h1>
+      <h1 className="text-4xl font-bold text-center mb-8 text-sky-600">{dict.fields.title}</h1>
       <p className="text-xl text-center text-gray-700 max-w-3xl mx-auto mb-12">{dict.fields.description}</p>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+      <div className="space-y-8 max-w-5xl mx-auto">
         {dict.fields.list.map((field, index) => (
-          <div key={index} className="border rounded-lg shadow-lg bg-white overflow-hidden">
-            <div className="container justify-center relative h-72 w-full bg-white">
-              <Image src={fieldImages[index % fieldImages.length]} alt={field.name} layout="fill" objectFit="cover" />
-            </div>
-            <div className="p-6">
-              <button
-                onClick={() => toggleField(field.name)}
-                className="w-full flex justify-between items-center px-6 py-4 text-xl font-semibold bg-blue-500 text-white hover:bg-blue-600 transition-all duration-300"
-              >
-                {field.name}
-                <span className={`text-2xl transform transition-transform duration-300 ${expandedFields.includes(field.name) ? "rotate-180" : ""}`}>
-                  ▼
-                </span>
-              </button>
-              <div
-                className={`transition-all duration-300 ease-in-out ${
-                  expandedFields.includes(field.name) ? "max-h-[500px] opacity-100 py-4" : "max-h-0 opacity-0"
-                } overflow-hidden px-6 bg-gray-100 text-gray-700 text-lg`}
-              >
+          <div key={index} className={`border rounded-lg shadow-lg bg-sky-600 overflow-hidden ${lang === "ar" ? "text-right" : "text-left"}`}>
+            <h2 className="text-2xl md:text-2xl font-semibold mb-4 text-white p-6 text-center">{field.name}</h2>
+            <div className="block md:flex">
+              <div className="relative h-96 w-full md:w-1/2 transition-transform duration-300 transform md:hover:scale-110 cursor-pointer" onClick={() => toggleExpand(field.name)}>
+                <Image src={fieldImages[index % fieldImages.length]} alt={field.name} layout="fill" objectFit="cover" className="opacity-90 md:hover:opacity-100" />
+              </div>
+              <div className={`p-6 text-white w-full md:w-1/2 ${expandedField === field.name && isMobile ? "block" : "hidden md:block"}`}>
+                {field.explaination && field.explaination.map((desc, i) => (
+                  <p key={i} className="mb-2">{desc}</p>
+                ))}
+              </div>
+              <div className={`p-6 text-white w-full ${expandedField === field.name && isMobile ? "block" : "hidden md:hidden"}`}>
                 {field.explaination && field.explaination.map((desc, i) => (
                   <p key={i} className="mb-2">{desc}</p>
                 ))}
