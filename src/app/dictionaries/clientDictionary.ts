@@ -171,7 +171,7 @@ const dictionaries = {
       },
     },
     footer: {
-      copyright: "2023 GESCO. All rights reserved.",
+      copyright: "© 2023 GESCO. All rights reserved.",
     },
 
     
