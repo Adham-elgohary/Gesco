@@ -46,6 +46,7 @@ export default function Contact() {
   };
   return (
 <div className="container mx-auto px-6 py-12">
+  <h1 className="text-sky-500 justify-center text-center text-3xl sm:text-4xl font-bold mb-4 sm:mb-6 pb-20">{dict.contact.title}</h1>
       <div className="bg-gray-100 p-6 rounded-lg shadow-md mb-12">
         <h2 className="text-2xl font-bold mb-4">{dict.contact.form.title}</h2>
         

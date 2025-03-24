@@ -50,9 +50,9 @@ export default function Home() {
       {/* Middle Segment with Gradient Strip */}
       <div className="mt-10 w-full"> {/* Margin top */}
         <div className="w-full h-auto rounded-lg flex items-center justify-center flex-col">
-          <h2 className="text-3xl font-semibold text-center text-gray-800 mb-6">
-            Accreditation Bodies
-          </h2>
+            <h2 className="text-3xl font-semibold text-center text-gray-800 mb-6">
+            {lang === "ar" ? "هيئات الاعتماد" : "Accreditation Bodies"}
+            </h2>
           <div className="container justify-center flex gap-4 px-6 w-full overflow-x-auto pb-6">
             {[Img1, Img2, Img3, Img4, Img5, Img6, Img7].map((img, index) => (
               <div key={index} className="justify-center flex-shrink-0 w-1/12 h-32 relative overflow-hidden rounded-lg">

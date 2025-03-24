@@ -35,7 +35,7 @@ return (
     <div className={`${lang === "ar" ? "rtl" : "ltr"} max-w-2xl`}>
         <h2 className="text-2xl font-bold mb-2">
         {slogan.replace("[WORD]", "")}
-        <span className="text-blue-500">{displayedWord}</span>
+        <span className="text-sky-500">{displayedWord}</span>
         <span className="animate-blink">|</span>
         </h2>
     </div>

@@ -15,7 +15,7 @@ export default function About() {
 
   return (
     <div className="container mx-auto px-6 py-12">
-      <h1 className="text-4xl font-bold text-center mb-10">{dict.about.title}</h1>
+      <h1 className="text-sky-500 text-4xl font-bold text-center pb-20">{dict.about.title}</h1>
 
       {/* Section 1 */}
       <div className="flex flex-col-reverse sm:flex-row items-center mb-12">

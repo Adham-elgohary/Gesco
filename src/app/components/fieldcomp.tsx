@@ -27,7 +27,7 @@ return (
         <div key={index} className="border rounded-2xl shadow-lg bg-white overflow-hidden">
             <button
             onClick={() => toggleField(field.name)}
-            className="w-full flex justify-between items-center px-6 py-4 text-xl font-semibold bg-blue-500 text-white hover:bg-blue-600 transition-all duration-300"
+            className="w-full flex justify-between items-center px-6 py-4 text-xl font-semibold bg-sky-500 text-white hover:bg-sky-600 transition-all duration-300"
             >
             {field.name}
             <span className={`text-2xl transform transition-transform duration-300 ${expandedFields.includes(field.name) ? "rotate-180" : ""}`}>

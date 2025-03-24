@@ -37,12 +37,12 @@ export default function Fields() {
 
   return (
     <div className="container mx-auto px-6 py-12">
-      <h1 className="text-4xl font-bold text-center mb-8 text-sky-600">{dict.fields.title}</h1>
+      <h1 className="text-4xl font-bold text-center mb-8 text-sky-500">{dict.fields.title}</h1>
       <p className="text-xl text-center text-gray-700 max-w-3xl mx-auto mb-12">{dict.fields.description}</p>
 
       <div className="space-y-8 max-w-5xl mx-auto">
         {dict.fields.list.map((field, index) => (
-          <div key={index} className={`border rounded-lg shadow-lg bg-sky-600 overflow-hidden ${lang === "ar" ? "text-right" : "text-left"}`}>
+          <div key={index} className={`border rounded-lg shadow-lg bg-sky-500 overflow-hidden ${lang === "ar" ? "text-right" : "text-left"}`}>
             <h2 className="text-2xl md:text-2xl font-semibold mb-4 text-white p-6 text-center">{field.name}</h2>
             <div className="block md:flex">
               <div className="relative h-96 w-full md:w-1/2 transition-transform duration-300 transform md:hover:scale-110 cursor-pointer" onClick={() => toggleExpand(field.name)}>

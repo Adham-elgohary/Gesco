@@ -17,8 +17,8 @@ export default function Consultants() {
 
   return (
     <div className="container mx-auto px-4 sm:px-6 py-8 sm:py-12">
-      <h1 className="text-3xl sm:text-4xl font-bold mb-4 sm:mb-6">{dict.consultants.title}</h1>
-      <p className="text-lg sm:text-xl mb-6 sm:mb-8">{dict.consultants.description}</p>
+      <h1 className="text-sky-500 justify-center text-center text-3xl sm:text-4xl font-bold mb-4 sm:mb-6">{dict.consultants.title}</h1>
+      <p className="justify-center text-center text-lg sm:text-xl mb-6 sm:mb-8">{dict.consultants.description}</p>
 
       {/* Expanded Consultant Info */}
       {selectedConsultant !== null && (
