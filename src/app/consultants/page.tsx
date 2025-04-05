@@ -32,7 +32,7 @@ export default function Consultants() {
           />
           <h2 className="text-2xl font-semibold mb-2">{dict.consultants.list[selectedConsultant].name}</h2>
           <h3 className="text-lg text-gray-600 mb-3">{dict.consultants.list[selectedConsultant].specialty}</h3>
-          <p className="text-base text-gray-700 text-center">{dict.consultants.list[selectedConsultant].description}</p>
+          <p className="text-base text-gray-700 px-32 justify-center text-justify">{dict.consultants.list[selectedConsultant].description}</p>
         </div>
       )}
 

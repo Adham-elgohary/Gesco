@@ -11,9 +11,9 @@ const dictionaries = {
     home: {
       title: "Welcome to GESCO",
       description: [
-            "Grand Egypt for Scientific Consultation delivers expert solutions tailored to your needs.",
-            "Explore innovative services designed to achieve your objectives with precision."
-          ],
+        "Grand Egypt for Scientific Consultation provides expert solutions tailored to your specific needs.",
+        "Discover our innovative services designed to achieve your goals with precision and professionalism."
+      ],
       ceoQuote: "Grand Egypt for Scientific Consultation aims to contribute effectively to the fourth industrial revolution through human resource development, technical support, and advanced technology. We also install and maintain modern scientific and medical equipment and have a comprehensive quality control program. We can achieve these duties through professional certified consultants and active working staff based on international standards.",
       accreditationBodies: ["ISO 9001", "ISO 14001", "OHSAS 18001", "API Q1"],
       slogan: "Empowering businesses through [WORD]",
@@ -23,124 +23,120 @@ const dictionaries = {
       title: "About Us",
       description: "Learn more about our company's history, mission, and values.",
       section1: "GESCO provides high-quality services to its clients in academic and professional sectors, offering integrated solutions and wide-ranging business consultations. It excels in human development and training systems in areas such as radiation protection, cybersecurity, and higher education quality, and keeps pace with the requirements of the Fourth Industrial Revolution through innovative computer programs (eCAT, eSAT, eSAB). It offers specialized technical support and consultations in the medical and industrial use of radioactive sources, relying on teams of locally and internationally certified experts. GESCO also provides continuous post-service support with a focus on development, follow-up, and exceptional technical assistance.",
-      section2: "Grand Egypt for Scientific Consultation (GESCO) offers specialized services in higher education development, training, scientific consultations, equipment supply, and technical support, aiming to enhance professional communities locally and internationally. The company focuses on the higher education sector and fields related to the use of radioactive sources in medicine and industry, through training programs, scientific consultations, and integrated technical support. GESCO aims to achieve regional and international competitiveness while meeting quality and academic accreditation requirements (such as ABET). It also supplies and installs scientific and medical equipment related to radioactive materials. The company aspires to lead in radiation protection, cybersecurity, and providing consultations, training, and technical support to various institutions. GESCO delivers its services through a team of local and international certified experts, ensuring projects align with local and international standards.",
-      section3_1: "Vision: Leadership in training, scientific consultations, and technical support in line with modern requirements.",
-      section3_2: "Mission: Delivering services using the latest technology and specialized expertise to ensure the success of our clients.",
-      title_3_1:"Vision and Mission:",
+      section2: "Grand Egypt for Scientific Consultation (GESCO) offers specialized services in higher education development, training, scientific consultations, equipment supply, and technical support, aiming to enhance professional communities locally and internationally. The company focuses on the higher education sector and fields related to the use of radioactive sources in medicine and industry, through training programs, scientific consultations, and integrated technical support. GESCO aims to achieve regional and international competitiveness while meeting quality and academic accreditation requirements (such as ABET). It also supplies and installs scientific and medical equipment related to radioactive materials. The company aspires to lead in radiation protection, cybersecurity, and providing consultations, training, and technical support to various institutions.",
+      section3_1: "Mission: Delivering services using the latest technology and specialized expertise to ensure the success of our clients.",
+      section3_2: "Vision: To lead in training, scientific consultations, and technical support in alignment with modern requirements.",
+      title_3_1: "Vision and Mission:",
+      title_3_2: "Values and Goals:",
       section4_1: "Values: Credibility, Integrity, Trust, Responsibility, Collaboration, Hard Work, Continuous Development, Innovation.",
-      section4_2:"Goals: The company aims to prepare specialized professional cadres that meet the demands of the Fourth Industrial Revolution, contribute to achieving sustainable development goals through advanced training programs and technical support, and support occupational safety standards and environmental protection in line with modern requirements.",
-      title_3_2:"Values and Goals:",
-      section5:"The company is committed to implementing a quality management system in accordance with the ISO 9001:2015 standard, ensuring continuous improvement through self-monitoring and administrative follow-up. Key quality objectives include adhering to standards and providing resources to achieve the highest quality levels, setting clear quality goals and reviewing them regularly, promoting a quality culture among employees and ensuring continuous improvement, training and qualifying employees to meet customer expectations, establishing clear procedures to ensure customer satisfaction and build long-term relationships, and regularly reviewing the quality policy to ensure its relevance to the company’s operations.",
-      title4:"Quality Policy:",
+      section4_2: "Goals: The company aims to prepare specialized professional cadres that meet the demands of the Fourth Industrial Revolution, contribute to achieving sustainable development goals through advanced training programs and technical support, and support occupational safety standards and environmental protection in line with modern requirements.",
+      section5: "The company is committed to implementing a quality management system in accordance with the ISO 9001:2015 standard, ensuring continuous improvement through self-monitoring and administrative follow-up. Key quality objectives include adhering to standards and providing resources to achieve the highest quality levels, setting clear quality goals and reviewing them regularly, promoting a quality culture among employees and ensuring continuous improvement, training and qualifying employees to meet customer expectations, establishing clear procedures to ensure customer satisfaction and build long-term relationships, and regularly reviewing the quality policy to ensure its relevance to the company’s operations.",
+      title4: "Quality Policy:",
     },
     fields: {
       title: "Our Fields",
       description: "Explore the various fields in which we specialize.",
       list: [
         {
-          name: "Education and quality development",
+          name: "Education and Quality Development",
           descriptions: [
             "Training Courses.",
-            "Academic Accreditation.",
-            "PC Programs.",
-            "Technical support and consulting."
+            "International Academic Accreditation.",
+            "Computer-Assisted Programs.",
+            "Technical Support and Consulting."
           ],
           explaination: [
             "The company works to improve the quality of higher education by providing integrated solutions that support academic institutions in achieving international academic accreditation standards such as ABET. These solutions include curriculum review and development, academic program assessment, and specialized consultations that help universities and institutes enhance educational outcomes to meet market demands.",
-            "The company also offers advanced electronic platforms such as the Instructor Course Assessment Tool (iCAT) that help evaluate courses and analyze student performance according to modern academic standards. Additionally, the company provides training programs and workshops aimed at enhancing faculty teaching skills and preparing them to use modern interactive teaching methods.",
-            "The company is committed to providing innovative educational strategies that help improve the learning experience by adopting the latest teaching technologies, such as interactive education and project-based learning, to prepare academic staff to meet the requirements of the Fourth Industrial Revolution.",
+            "The company also offers advanced electronic platforms such as the Instructor Course Assessment Tool (iCAT) that help evaluate courses and analyze student performance according to modern academic standards. Additionally, the company provides training programs and workshops aimed at enhancing faculty teaching skills and preparing them to use modern interactive teaching methods."
           ],
         },
         {
           name: "Training and Human Development",
           descriptions: [
-            "Training and Human Development.",
-            "Cyber Security.",
-            "Active Learning.",
-            "Radiation Security.",
-            "Physical Protection."
+            "Free Training Courses.",
+            "Cybersecurity.",
+            "Interactive Learning.",
+            "Radiation Protection.",
+            "Physical Security."
           ],
           explaination: [
-            "The company works to improve the quality of higher education by providing integrated solutions that support academic institutions in achieving international academic accreditation standards such as ABET. These solutions include curriculum review and development, academic program assessment, and specialized consultations that help universities and institutes enhance educational outcomes to meet market demands.",
-            "The company also offers advanced electronic platforms such as the Instructor Course Assessment Tool (iCAT) that help evaluate courses and analyze student performance according to modern academic standards. Additionally, the company provides training programs and workshops aimed at enhancing faculty teaching skills and preparing them to use modern interactive teaching methods.",
-            "The company is committed to providing innovative educational strategies that help improve the learning experience by adopting the latest teaching technologies, such as interactive education and project-based learning, to prepare academic staff to meet the requirements of the Fourth Industrial Revolution.",
+            "The company aims to develop human skills and competencies by offering specialized training programs tailored to the needs of various sectors in education, industry, and healthcare. These programs bridge the gap between educational outcomes and labor market requirements, helping individuals acquire the skills needed to enhance their career opportunities.",
+            "Training areas include advanced programs in strategic management, leadership development, cybersecurity, and radiation protection, delivered by internationally certified experts to ensure the highest quality standards. The company also offers certification programs in various professional and technical fields."
           ],
         },
         {
-          name: "Consulting and technical support",
+          name: "Consulting and Technical Support",
           descriptions: [
-            "Radioecology.",
+            "Environmental and Radiation Consulting.",
             "Strategic Planning.",
-            "Radiation and Power."
+            "Energy and Radiation."
           ],
           explaination: [
-            "The company works to improve the quality of higher education by providing integrated solutions that support academic institutions in achieving international academic accreditation standards such as ABET. These solutions include curriculum review and development, academic program assessment, and specialized consultations that help universities and institutes enhance educational outcomes to meet market demands.",
-            "The company also offers advanced electronic platforms such as the Instructor Course Assessment Tool (iCAT) that help evaluate courses and analyze student performance according to modern academic standards. Additionally, the company provides training programs and workshops aimed at enhancing faculty teaching skills and preparing them to use modern interactive teaching methods.",
-            "The company is committed to providing innovative educational strategies that help improve the learning experience by adopting the latest teaching technologies, such as interactive education and project-based learning, to prepare academic staff to meet the requirements of the Fourth Industrial Revolution.",
+            "The company provides comprehensive consulting and technical support services to institutions in education, industry, and energy sectors, focusing on delivering practical and actionable solutions. This includes specialized consulting in strategic planning, risk analysis, and project development in compliance with the latest local and international standards.",
+            "Technical support includes reviewing engineering designs and supervising project implementation to ensure the highest quality and safety standards. The company also offers specialized consulting in radiation protection, cybersecurity, and radioactive waste management, helping institutions comply with regulatory requirements and improve operational efficiency."
           ],
         },
         {
           name: "Scientific and Medical Equipment",
           descriptions: [
-            "Scientific and Medical Equipment.",
-            "ًEducational Laboratories.",
-            "Medical Equipment."
+            "Research Equipment.",
+            "Educational Laboratories.",
+            "Medical Devices."
           ],
           explaination: [
-            "The company works to improve the quality of higher education by providing integrated solutions that support academic institutions in achieving international academic accreditation standards such as ABET. These solutions include curriculum review and development, academic program assessment, and specialized consultations that help universities and institutes enhance educational outcomes to meet market demands.",
-            "The company also offers advanced electronic platforms such as the Instructor Course Assessment Tool (iCAT) that help evaluate courses and analyze student performance according to modern academic standards. Additionally, the company provides training programs and workshops aimed at enhancing faculty teaching skills and preparing them to use modern interactive teaching methods.",
-            "The company is committed to providing innovative educational strategies that help improve the learning experience by adopting the latest teaching technologies, such as interactive education and project-based learning, to prepare academic staff to meet the requirements of the Fourth Industrial Revolution.",
+            "The company provides a wide range of scientific and medical equipment to meet the needs of educational, research, and healthcare institutions. These include radiation measurement devices, radiation survey instruments, and personal dosimetry monitoring systems, contributing to a safe environment for professionals in medicine, industry, and scientific research.",
+            "The company specializes in supplying and installing diagnostic and therapeutic radiation equipment, such as CT scanners, PET scanners, radiation spectrometry devices, and emergency radiation equipment."
           ],
         },
       ],
     },
     consultants: {
       title: "Our Consultants",
-      description: "Meet our expert consultants who are ready to assist you.",
+      description: "Meet our team of highly qualified consultants, each bringing extensive expertise and a proven track record in their respective fields.",
       list: [
         {
           name: "Prof. Dr. Ali Sayed Abdo",
           image: Img2,
           specialty: "Halliburton-Houston, USA",
-          description: "Dr. Ali Sayed Abdo holds a Ph.D. in Nuclear Engineering from the University of Wisconsin-Madison, USA, in 2005. He currently serves as a Scientific Consultant at Halliburton-Houston, leading research and development for the Pulsed Neutron Generator (PNG) group since 2018. With extensive academic experience, he worked as an Assistant Professor in Nuclear and Mechanical Engineering and Nanotechnology at prestigious universities in the USA, UAE, and Egypt from 2009 to 2017. He has over 20 years of experience in thermal-hydraulic experiments in nuclear reactors and is an expert in environmental monitoring, radiation dose assessment for professionals, emergency planning, radiation protection regulations, and radiation protection equipment verification. He holds licenses in Health Physics and Radiation Protection from nuclear regulatory bodies in Argentina and Egypt in 1996 and 1997, respectively. Dr. Abdo has significant expertise in designing, operating, and using nuclear research reactors, as well as in plasma science and engineering, semiconductor manufacturing, and nuclear radiation physics. Academically, he has developed curricula for undergraduate and graduate programs in nuclear reactor physics, reactor experiments, plasma physics, nuclear fusion, magnetohydrodynamics (MHD), plasma kinetic theory, plasma waves, and plasma-assisted nanofabrication. He is also proficient in software related to thermal hydraulics, radiation protection, plasma, semiconductors, and programming languages. Dr. Abdo has numerous scientific publications in prestigious international journals, reflecting his prominent standing in nuclear engineering and related fields.",
+          description: "Prof. Dr. Ali Sayed Abdo holds a Ph.D. in Nuclear Engineering from the University of Wisconsin-Madison, USA. With over 20 years of experience, he is a leading expert in thermal-hydraulic experiments, radiation protection, and environmental monitoring. Currently, he serves as a Scientific Consultant at Halliburton-Houston, where he leads research and development for Pulsed Neutron Generator (PNG) technologies. Dr. Abdo has a strong academic background, having taught at prestigious universities in the USA, UAE, and Egypt. He is also proficient in designing and operating nuclear research reactors and has published extensively in international journals, reflecting his prominence in nuclear engineering and advanced technologies."
         },
         {
           name: "Prof. Dr. Mohamed Ismail Bassiouni",
           image: Img6,
-          specialty: "Faculty of Engineering - Port Said University, Egypt",
-          description: "Prof. Dr. Mohamed Ismail Bassiouni holds a Ph.D. in Chemical Engineering from Clausthal University, Germany, in 2008. He currently serves as the Director of the Energy Research and Studies Center and the Director of the Excellence Center for Water Desalination Technology at Port Said University, Egypt, since 2020. Additionally, he is a Professor in the Chemical Engineering Department at Port Said University since 2017. With extensive academic experience, he has worked at several prestigious universities in Egypt and Saudi Arabia. He is an expert in occupational safety and health engineering, with over 10 years of experience in materials engineering, and is also skilled in human resource training and development. Dr. Bassiouni has led numerous large-scale research projects, including the Excellence Center for Membrane-Based Water Desalination Technologies (supported by STDF in Egypt) and the development of new polymer composite materials with palm fibers and nanocomposites (supported by the Bibliotheca Alexandrina and ASRT in Egypt). He has also participated in projects such as the fabrication and characterization of PVDF membranes for water distillation, hydrodynamic studies of liquid injection in fluidized beds, cyanide removal from liquid waste using electrochemical oxidation techniques, and the removal of heavy metals and organic pollutants from wastewater using hybrid polymer-sludge adsorbents. Additionally, he has led projects on developing high-temperature-resistant composite materials for advanced applications and composite materials for wind turbine blades (supported by KACST). Dr. Bassiouni has extensive scientific contributions and has received numerous awards in scientific research and industrial applications, reflecting his prominent standing in chemical engineering and its advanced applications.",
+          specialty: "Port Said University, Egypt",
+          description: "Prof. Dr. Mohamed Ismail Bassiouni is a distinguished expert in chemical engineering, holding a Ph.D. from Clausthal University, Germany. He currently serves as the Director of the Energy Research and Studies Center and the Excellence Center for Water Desalination Technology at Port Said University. With over a decade of experience in occupational safety, materials engineering, and human resource development, Dr. Bassiouni has led numerous large-scale research projects, including advancements in polymer composites and water desalination technologies. His contributions to scientific research and industrial applications have earned him multiple awards and recognition in the field of chemical engineering."
         },
         {
           name: "Assoc. Prof. Salahuddin Malkawi",
           image: Img7,
           specialty: "Jordan University of Science and Technology",
-          description: "Assoc. Prof. Salahuddin Malkawi holds a Ph.D. in Nuclear Engineering from the Pakistan-Jordan Nuclear Science Center in 2000 and participated in the International Nuclear Leadership Education Program at MIT, USA, in 2014. He currently serves as an Associate Professor in the Nuclear Engineering Department at Jordan University of Science and Technology since 2019. With extensive administrative and scientific experience, he served as the Director-General (formerly CEO) of the Jordan Nuclear Power Company (JNPC) from 2017 to 2019 and as Deputy Director-General of the same company from 2016 to 2017. Dr. Malkawi led efforts to establish the only nuclear engineering department in Jordan as the Head of the Department at Jordan University of Science and Technology from 2008 to 2016. He also served as a Technical Consultant to the Jordan Atomic Energy Commission in human resource development during the same period. He is a former member of the Jordan Research Reactor Safety Committee (JRTR) from 2008 to 2016 and led the design and construction of the Jordan Subcritical Assembly, the first nuclear facility in Jordan, in 2013. Dr. Malkawi participated in the development of the 'Internet Reactor Lab' in collaboration with North Carolina State University, the US Department of State, and the IAEA, aimed at teaching nuclear engineering in developing countries from 2009 to 2010. He has participated in over 50 international expert missions, seminars, technical meetings, and workshops, reflecting his prominent role in the nuclear field internationally. Dr. Salahuddin Malkawi has extensive expertise in nuclear safeguards and safety and is an expert in energy project planning and human resource development for nuclear power plant projects, making him one of the region's leading experts in this field.",
+          description: "Assoc. Prof. Salahuddin Malkawi is a renowned nuclear engineer with a Ph.D. from the Pakistan-Jordan Nuclear Science Center. He has extensive experience in nuclear safeguards, energy project planning, and human resource development for nuclear power plants. Dr. Malkawi has held leadership roles, including Director-General of the Jordan Nuclear Power Company, and has been instrumental in establishing Jordan's first nuclear engineering department. His contributions to nuclear education and safety have positioned him as a leading expert in the region."
         },
         {
           name: "Assoc. Prof. Dr. Ansari Mohamed Ahmed Al-Fara",
           image: Img4,
-          specialty: "Project Director and Consultant - Imam Abdulrahman Bin Faisal University",
-          description: "Assoc. Prof. Dr. Ansari Mohamed Ahmed Al-Fara holds a Ph.D. in Mechanical Engineering from Cairo University, Egypt, in 2008, with over 25 years of experience in engineering and consultancy for infrastructure projects and nuclear applications. He currently serves as an Assistant Professor, Project Director, and Consultant at Imam Abdulrahman Bin Faisal University in Saudi Arabia since 2008. He also worked as a Design Consultant for the Saudi Ministry of Culture and Information for two years. He has executed numerous major projects over 12 years, including infrastructure, hospitals, healthcare facilities, central utilities, underpasses, service tunnels, and high-rise buildings, overseeing design and implementation at all stages. Dr. Al-Fara has over 13 years of experience in nuclear project execution, serving as Reactor Operations Head and responsible for managing the reactor's safe operation plan from 2006 to 2008. He was a member of the Reactor Safety Committee from 2003 to 2008 and a licensed Reactor Shift Supervisor from 1998 to 2006. He also worked as a Licensed Reactor Operator in Argentina from 1996 to 1998 and as a Site Engineer and Commissioning Participant from 1995 to 1998. He participated in preparations for major reactor maintenance and has expertise in safely and efficiently operating mechanical, electrical, and reactor systems from the control room. He collaborated with the Reactor Director in preparing and updating the emergency manual and was responsible for preparing proposed and new experiments, facility development, and system modifications to improve reactor performance. Dr. Al-Fara has been a researcher at the Nuclear Research Center of the Egyptian Atomic Energy Authority since 1995, specializing in thermal-hydraulic simulation and analysis for nuclear plants. He is an expert in developing thermal-hydraulic studies related to nuclear reactor safety and reviewing designs for water cooling and air conditioning systems. Dr. Al-Fara has experience leading teams to prepare and complete project tender documents, including specifications, drawings, and quantity schedules, through effective collaboration and teamwork. He also has expertise in designing water supply networks, firefighting systems, ventilation, and diesel generators, as well as supervisory control systems for thermal-hydraulic processes. He has extensive experience in government and international organizations and has participated in numerous global conferences and workshops in energy and mechanical systems, reflecting his prominent standing in engineering and nuclear applications.",
+          specialty: "Imam Abdulrahman Bin Faisal University, Saudi Arabia",
+          description: "Assoc. Prof. Dr. Ansari Mohamed Ahmed Al-Fara is a mechanical engineering expert with over 25 years of experience in infrastructure projects and nuclear applications. He holds a Ph.D. from Cairo University, Egypt, and currently serves as a Project Director and Consultant at Imam Abdulrahman Bin Faisal University. Dr. Al-Fara has led major projects in healthcare, utilities, and high-rise buildings, and has extensive expertise in reactor operations, thermal-hydraulic analysis, and safety systems. His leadership and technical skills have made him a trusted advisor in engineering and nuclear projects."
         },
         {
           name: "Prof. Dr. Ibrahim Osman El-Deeb",
           image: Img5,
           specialty: "Braden Europe B.V., Netherlands",
-          description: "Dr. Ibrahim Osman El-Deeb holds a Ph.D. in Mechanical Engineering from Alexandria University, Egypt, in 2013, with over 28 years of experience in project supervision, quality management, construction, commissioning, modifications, and field technical consulting, focusing on the energy and manufacturing sectors. He currently serves as the Senior Technical Consultant at Braden Europe B.V., a leading company in designing, manufacturing, installing, and modifying auxiliary equipment for gas turbines in the Netherlands, since 2012. Dr. El-Deeb served as Quality Assurance Manager and Management Representative at DSD Ferrometalco, a steel manufacturing and construction company with an annual production capacity of 50,000 tons in Egypt, from 2010 to 2012. He also worked as the Quality Resources Manager at Braden Manufacturing in the USA from 2008 to 2010, overseeing the manufacturing, installation, and modification of auxiliary equipment for gas turbines. Additionally, he served as Project Manager at Zimmermann B.C.S. Stonz H.K., specializing in gemstone and semiconductor processing, from 2006 to 2008. Dr. El-Deeb has extensive expertise in developing and implementing quality, environmental, and safety management systems and is an expert in drafting and approving project budget reports. He supervises project cost and time estimates and prepares technical reports while monitoring approved changes to ensure project goals are achieved efficiently. He also has extensive experience in managing and coordinating field teams, resolving team issues, and ensuring compliance with quality, health, safety, and environmental requirements. Dr. El-Deeb has strong skills in technical reporting, research, communication, and problem-solving, making him one of the leading experts in mechanical engineering, project management, and quality assurance.",
+          description: "Prof. Dr. Ibrahim Osman El-Deeb is a senior technical consultant with a Ph.D. in Mechanical Engineering from Alexandria University, Egypt. With over 28 years of experience, he specializes in project supervision, quality management, and technical consulting for the energy and manufacturing sectors. Dr. El-Deeb has held leadership roles in multinational companies and has a proven track record in implementing quality and safety management systems. His expertise in project execution and problem-solving has earned him recognition as a leading figure in mechanical engineering and quality assurance."
         },
         {
           name: "Assoc. Prof. Amir Abdelwoud Abdel Rasoul",
           image: Img3,
-          specialty: "Assistant Professor of Electrical Engineering",
-          description: "Assoc. Prof. Amir Abdelwoud Abdel Rasoul holds a Ph.D. in Power and Electrical Machines Engineering from the Electrical Engineering Department at Al-Azhar University, Egypt, in 2009, and an advanced diploma in Security and Protection Systems from TAVCOM, a global security and consultancy company in Southampton, England, in 2016. He holds fellowships from the Nuclear Energy Foundation in Argentina (2014) and the Institute for Energy Technology in Norway (2010). He currently serves as an Assistant Professor in Electrical Engineering at the Nuclear Research Center and as a Consultant for Nuclear Security and Physical Protection. He is also the Quality Assurance (QA) Officer for projects developing and upgrading physical protection systems. With over 25 years of experience in emergency systems and facility security, he is an expert in internal alarm systems, fire detection, and intrusion detection. Dr. Amir is a member of the Egyptian Society for Nuclear Sciences and Applications and the International Nuclear Security Institute (WINS) in Vienna, Austria. He has participated as a member of the International Physical Protection Advisory Service (IPPAS) under the IAEA and the International Committee for Reviewing Physical Protection Regulations at the IAEA in Austria. He has numerous active contributions in Egypt and the USA, reflecting his prominent standing in nuclear security, physical protection, and power engineering.",
+          specialty: "Nuclear Research Center, Egypt",
+          description: "Assoc. Prof. Amir Abdelwoud Abdel Rasoul is an electrical engineering expert with a Ph.D. in Power and Electrical Machines Engineering from Al-Azhar University, Egypt. He has over 25 years of experience in nuclear security, physical protection, and emergency systems. Dr. Amir has contributed to international nuclear safety initiatives and has extensive expertise in designing and upgrading physical protection systems. His technical knowledge and leadership in nuclear security make him a valuable asset to the field."
         },
         {
           name: "Eng. Abdulaziz Tazhdi",
           image: Img1,
-          specialty: "Senior Technical Support Engineer in Medical Devices",
-          description: "Eng. Abdulaziz Tazhdi holds an MBA from the Arab Academy for Science, Technology, and Maritime Transport in Egypt (2010) and a Bachelor's degree in Communications and Electronics Engineering from Zagazig University, Egypt (1995). With over 26 years of experience in biomedical engineering, he is also skilled in sales and technical support. He currently serves as a Senior Technical Support Engineer at an innovative integrated solutions company for the industrial, energy, and healthcare sectors in Saudi Arabia since 2009. Previously, he worked as a Senior Engineer at the same company for the healthcare sector in Saudi Arabia from 2002 to 2008 and as a Biomedical Services Engineer in Egypt from 1997 to 2002. He has extensive experience in creating documents describing protocols, policies, and standards for the use, maintenance, and repair of medical equipment, as well as in managing, designing, installing, operating, and maintaining medical devices. He has trained numerous programs in biomedical engineering, including medical equipment principles, management, and the theoretical and practical aspects of medical equipment maintenance. He also has expertise in strategic planning, applying advanced tools to diagnose complex problems to meet customer needs and develop relationships. Additionally, he has strong skills in team leadership, building, training, and development, making him one of the leading professionals in biomedical engineering and technical project management.",
+          specialty: "Medical Devices, Saudi Arabia",
+          description: "Eng. Abdulaziz Tazhdi is a biomedical engineering professional with over 26 years of experience in medical devices and technical support. He holds an MBA from the Arab Academy for Science, Technology, and Maritime Transport, Egypt. Eng. Tazhdi has extensive expertise in managing, designing, and maintaining medical equipment, as well as training programs in biomedical engineering. His strategic planning and problem-solving skills have made him a trusted consultant in the healthcare and industrial sectors."
         },
-      ],    
+      ],
     },
     binder: {
       title: "Binder-ET",
@@ -158,15 +154,21 @@ const dictionaries = {
       },
       location: {
         title: "Our Location",
-        address: "123 Business St, New York, NY 10001",
-        phone: "+1 (123) 456-7890",
-        mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093793!2d144.95592831531786!3d-37.81720974201425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce6e0!2s123%20Business%20St%2C%20New%20York%2C%20NY%2010001!5e0!3m2!1sen!2sus!4v1643153278577",
+        address: "Office 402, Five Star Mall, El-Tahrir Rd, First 6th of October, Giza Governorate 3231322",
+        phone: "+20 111 938 9769",
+        mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.028149663135!2d30.935697599999997!3d29.978620999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14585650d147a203%3A0x41119166522e1ac3!2sFive%20Stars%20Mall!5e0!3m2!1sen!2seg!4v1743805517857!5m2!1sen!2seg",
       },
       faq: {
         title: "Frequently Asked Questions",
         questions: [
-          { question: "What services do you offer?", answer: "We offer a range of services including..." },
-          { question: "How can I book a consultation?", answer: "You can book a consultation by..." },
+          {
+            question: "What services do you offer?",
+            answer: "We offer services in education and quality development, training and human development, consulting and technical support, and the supply of scientific and medical equipment."
+          },
+          {
+            question: "How can I book a consultation?",
+            answer: "You can book a consultation by contacting us through our website, email, or phone number provided in the contact section."
+          },
         ],
       },
     },
@@ -183,7 +185,7 @@ const dictionaries = {
         "تُقدِّم جراند إيجيبت للاستشارات العلمية حلولًا خبراء مُصممة خصيصًا لاحتياجاتك.",
         "اكتشف خدماتنا المبتكرة المُطوَّرة لتحقيق أهدافك بدقةٍ واحترافية."
       ],
-      ceoQuote: "مهمتنا هي الابتكار والريادة في صناعتنا، وتقديم قيمة لا مثيل لها لعملائنا.",
+      ceoQuote: "تهدف شركة جراند إيجيبت للاستشارات العلمية إلى المساهمة بفعالية في الثورة الصناعية الرابعة من خلال تطوير الموارد البشرية، وتقديم الدعم الفني، وتطبيق التكنولوجيا المتقدمة. كما نقوم بتركيب وصيانة المعدات العلمية والطبية الحديثة، مع تنفيذ برنامج شامل لمراقبة الجودة. نحقق هذه المهام من خلال مستشارين محترفين معتمدين وفريق عمل نشط يعتمد على المعايير الدولية.",
       accreditationBodies: ["آيزو 9001", "آيزو 14001", "أوساس 18001", "إيه بي آي كيو1"],
       slogan: "تمكين الأعمال من خلال [WORD]",
       changingWords: ["الابتكار", "التكنولوجيا", "الخبرة", "الشراكة"],
@@ -261,13 +263,49 @@ const dictionaries = {
     },
     consultants: {
       title: "مستشارونا",
-      description: "تعرف على مستشارينا الخبراء المستعدين لمساعدتك.",
+      description: "تعرف على فريق مستشارينا المؤهلين تأهيلاً عاليًا، الذين يتمتعون بخبرات واسعة وسجل حافل في مجالاتهم المختلفة.",
       list: [
         {
           name: "أ.د. علي السيد عبده",
           image: Img2,
           specialty: "هاليبرتون-هيوستن، الولايات المتحدة الأمريكية",
-          description: "الدكتور علي السيد عبده حاصل على درجة الدكتوراة في الهندسة النووية من جامعة ويسكونسن-ماديسون بالولايات المتحدة الأمريكية عام 2005، ويشغل حاليًا منصب مستشار علمي في شركة Halliburton-Houston، حيث يقود أبحاث وتطوير مجموعة مولدات النيوترونات النبضية (PNG) منذ عام 2018. يتمتع بخبرة أكاديمية واسعة، حيث عمل أستاذًا مساعدًا في الهندسة النووية والميكانيكية وتكنولوجيا النانو في جامعات مرموقة بالولايات المتحدة والإمارات العربية المتحدة ومصر خلال الفترة من 2009 إلى 2017. يمتلك أكثر من 20 عامًا من الخبرة في تجارب الهيدروليكا الحرارية في المفاعلات النووية، بالإضافة إلى كونه خبيرًا في مراقبة البيئة وتقييم الجرعات الإشعاعية للموظفين المهنيين، وإعداد خطط الطوارئ، ووضع قواعد ونظم الممارسات الإشعاعية، والتحقق من معدات الحماية من الإشعاع. حصل على ترخيص فيزياء الصحة والحماية من الإشعاع من لجان الرقابة النووية في الأرجنتين ومصر عامي 1996 و1997 على التوالي. يتمتع بخبرة كبيرة في تصميم وتشغيل واستخدام مفاعلات البحوث النووية، فضلًا عن كونه خبيرًا في علوم وهندسة البلازما، وتصنيع أشباه الموصلات، وفيزياء الإشعاع النووي.",
+          description: "أ.د. علي السيد عبده حاصل على درجة الدكتوراه في الهندسة النووية من جامعة ويسكونسن-ماديسون، الولايات المتحدة الأمريكية. يتمتع بخبرة تزيد عن 20 عامًا كخبير رائد في التجارب الحرارية الهيدروليكية، وحماية الإشعاع، ومراقبة البيئة. يشغل حاليًا منصب مستشار علمي في شركة هاليبرتون-هيوستن، حيث يقود أبحاث وتطوير تقنيات مولدات النيوترونات النبضية (PNG). يتمتع بخلفية أكاديمية قوية، حيث درّس في جامعات مرموقة في الولايات المتحدة والإمارات ومصر. كما يتمتع بخبرة واسعة في تصميم وتشغيل مفاعلات البحوث النووية وله العديد من المنشورات في مجلات دولية مرموقة."
+        },
+        {
+          name: "أ.د. محمد إسماعيل بسيوني",
+          image: Img6,
+          specialty: "جامعة بورسعيد، مصر",
+          description: "أ.د. محمد إسماعيل بسيوني خبير متميز في الهندسة الكيميائية، حاصل على درجة الدكتوراه من جامعة كلاوستال، ألمانيا. يشغل حاليًا منصب مدير مركز أبحاث ودراسات الطاقة ومركز التميز لتقنيات تحلية المياه بجامعة بورسعيد. يتمتع بخبرة تزيد عن 10 سنوات في السلامة المهنية وهندسة المواد وتطوير الموارد البشرية. قاد العديد من المشاريع البحثية الكبرى، بما في ذلك تطوير المواد المركبة البوليمرية وتقنيات تحلية المياه. حصل على العديد من الجوائز والتكريمات في مجال الهندسة الكيميائية."
+        },
+        {
+          name: "أ.م.د. صلاح الدين ملكاوي",
+          image: Img7,
+          specialty: "جامعة العلوم والتكنولوجيا الأردنية",
+          description: "أ.م.د. صلاح الدين ملكاوي خبير في الهندسة النووية، حاصل على درجة الدكتوراه من مركز العلوم النووية الباكستاني الأردني. يتمتع بخبرة واسعة في ضمانات الأمان النووي، تخطيط مشاريع الطاقة، وتطوير الموارد البشرية لمحطات الطاقة النووية. شغل مناصب قيادية، بما في ذلك المدير العام لشركة الطاقة النووية الأردنية، وكان له دور بارز في تأسيس أول قسم للهندسة النووية في الأردن. تُعد مساهماته في التعليم والسلامة النووية من أبرز إنجازاته."
+        },
+        {
+          name: "أ.م.د. أنصاري محمد أحمد الفرا",
+          image: Img4,
+          specialty: "جامعة الإمام عبدالرحمن بن فيصل، السعودية",
+          description: "أ.م.د. أنصاري محمد أحمد الفرا خبير في الهندسة الميكانيكية يتمتع بخبرة تزيد عن 25 عامًا في مشاريع البنية التحتية والتطبيقات النووية. حاصل على درجة الدكتوراه من جامعة القاهرة، مصر، ويشغل حاليًا منصب مدير مشاريع ومستشار في جامعة الإمام عبدالرحمن بن فيصل. قاد العديد من المشاريع الكبرى في مجالات الرعاية الصحية والمرافق والبنية التحتية، وله خبرة واسعة في تشغيل المفاعلات وتحليل الأنظمة الحرارية الهيدروليكية. تُعد مهاراته القيادية والتقنية مصدر ثقة في المشاريع الهندسية والنووية."
+        },
+        {
+          name: "أ.د. إبراهيم عثمان الديب",
+          image: Img5,
+          specialty: "شركة برادن أوروبا، هولندا",
+          description: "أ.د. إبراهيم عثمان الديب مستشار تقني أول حاصل على درجة الدكتوراه في الهندسة الميكانيكية من جامعة الإسكندرية، مصر. يتمتع بخبرة تزيد عن 28 عامًا في الإشراف على المشاريع، إدارة الجودة، والاستشارات التقنية لقطاعات الطاقة والتصنيع. شغل مناصب قيادية في شركات متعددة الجنسيات وله سجل حافل في تنفيذ أنظمة إدارة الجودة والسلامة. تُعد خبرته في تنفيذ المشاريع وحل المشكلات من أبرز نقاط قوته."
+        },
+        {
+          name: "أ.م.د. أمير عبد الودود عبد الرسول",
+          image: Img3,
+          specialty: "مركز البحوث النووية، مصر",
+          description: "أ.م.د. أمير عبد الودود عبد الرسول خبير في الهندسة الكهربائية، حاصل على درجة الدكتوراه في هندسة القوى والآلات الكهربائية من جامعة الأزهر، مصر. يتمتع بخبرة تزيد عن 25 عامًا في الأمن النووي، الحماية المادية، وأنظمة الطوارئ. ساهم في مبادرات دولية للأمان النووي وله خبرة واسعة في تصميم وتطوير أنظمة الحماية المادية. تُعد معرفته التقنية ومهاراته القيادية إضافة قيمة لمجال الأمن النووي."
+        },
+        {
+          name: "م. عبدالعزيز تزهدي",
+          image: Img1,
+          specialty: "الأجهزة الطبية، السعودية",
+          description: "المهندس عبدالعزيز تزهدي متخصص في الهندسة الطبية الحيوية ويتمتع بخبرة تزيد عن 26 عامًا في الأجهزة الطبية والدعم الفني. حاصل على ماجستير إدارة الأعمال من الأكاديمية العربية للعلوم والتكنولوجيا والنقل البحري، مصر. يتمتع بخبرة واسعة في إدارة وتصميم وصيانة المعدات الطبية، بالإضافة إلى تدريب البرامج في الهندسة الطبية الحيوية. تُعد مهاراته في التخطيط الاستراتيجي وحل المشكلات مصدر ثقة في قطاعات الرعاية الصحية والصناعية."
         },
       ],
     },
@@ -287,15 +325,21 @@ const dictionaries = {
       },
       location: {
         title: "موقعنا",
-        address: "١٢٣ شارع الأعمال، نيويورك، ١٠٠٠١",
-        phone: "+١ (١٢٣) ٤٥٦-٧٨٩٠",
-        mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093793!2d144.95592831531786!3d-37.81720974201425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce6e0!2s123%20Business%20St%2C%20New%20York%2C%20NY%2010001!5e0!3m2!1sen!2sus!4v1643153278577",
+        address: "المكتب ٤٠٢، مول فايف ستار، طريق التحرير، أول ٦ أكتوبر، محافظة الجيزة ٣٢٣١٣٢٢",
+        phone: "+٢٠ ١١١ ٩٣٨ ٩٧٦٩",
+        mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.028149663135!2d30.935697599999997!3d29.978620999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14585650d147a203%3A0x41119166522e1ac3!2sFive%20Stars%20Mall!5e0!3m2!1sen!2seg!4v1743805517857!5m2!1sen!2seg",
       },
       faq: {
         title: "الأسئلة الشائعة",
         questions: [
-          { question: "ما هي الخدمات التي تقدمونها؟", answer: "نحن نقدم مجموعة من الخدمات بما في ذلك..." },
-          { question: "كيف يمكنني حجز استشارة؟", answer: "يمكنك حجز استشارة عن طريق..." },
+          {
+            question: "ما هي الخدمات التي تقدمونها؟",
+            answer: "نحن نقدم خدمات في تطوير التعليم والجودة، التدريب والتنمية البشرية، الاستشارات والدعم الفني، وتوريد الأجهزة العلمية والطبية."
+          },
+          {
+            question: "كيف يمكنني حجز استشارة؟",
+            answer: "يمكنك حجز استشارة عن طريق التواصل معنا عبر موقعنا الإلكتروني أو البريد الإلكتروني أو رقم الهاتف الموجود في قسم الاتصال."
+          },
         ],
       },
     },

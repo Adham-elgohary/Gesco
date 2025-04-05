@@ -42,21 +42,39 @@ export default function Fields() {
 
       <div className="space-y-8 max-w-5xl mx-auto">
         {dict.fields.list.map((field, index) => (
-          <div key={index} className={`border rounded-lg shadow-lg bg-sky-500 overflow-hidden ${lang === "ar" ? "text-right" : "text-left"}`}>
-            <h2 className="text-2xl md:text-2xl font-semibold mb-4 text-white p-6 text-center">{field.name}</h2>
+          <div
+            key={index}
+            className={`border rounded-lg shadow-lg bg-sky-500 overflow-hidden ${
+              lang === "ar" ? "text-right" : "text-left"
+            }`}
+          >
+            <h2 className="text-2xl md:text-2xl font-semibold mb-4 text-white p-6 text-center">
+              {field.name}
+            </h2>
             <div className="block md:flex">
-              <div className="relative h-96 w-full md:w-1/2 transition-transform duration-300 transform md:hover:scale-110 cursor-pointer" onClick={() => toggleExpand(field.name)}>
-                <Image src={fieldImages[index % fieldImages.length]} alt={field.name} layout="fill" objectFit="cover" className="opacity-90 md:hover:opacity-100" />
+              <div
+                className="relative h-96 w-full md:w-1/2 cursor-pointer"
+                onClick={() => toggleExpand(field.name)}
+              >
+                <Image
+                  src={fieldImages[index % fieldImages.length]}
+                  alt={field.name}
+                  layout="fill"
+                  objectFit="cover"
+                  className="opacity-90"
+                />
               </div>
-              <div className={`p-6 text-white w-full md:w-1/2 ${expandedField === field.name && isMobile ? "block" : "hidden md:block"}`}>
-                {field.explaination && field.explaination.map((desc, i) => (
-                  <p key={i} className="mb-2">{desc}</p>
-                ))}
-              </div>
-              <div className={`p-6 text-white w-full ${expandedField === field.name && isMobile ? "block" : "hidden md:hidden"}`}>
-                {field.explaination && field.explaination.map((desc, i) => (
-                  <p key={i} className="mb-2">{desc}</p>
-                ))}
+              <div
+                className={`p-6 text-white w-full md:w-1/2 ${
+                  expandedField === field.name && isMobile ? "block" : "hidden md:block"
+                }`}
+              >
+                {field.explaination &&
+                  field.explaination.map((desc, i) => (
+                    <p key={i} className="mb-2">
+                      {desc}
+                    </p>
+                  ))}
               </div>
             </div>
           </div>

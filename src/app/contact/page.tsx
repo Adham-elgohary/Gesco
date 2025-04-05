@@ -82,7 +82,7 @@ export default function Contact() {
           />
             <button
             type="submit"
-            className="w-full bg-blue-600 text-white py-2 rounded-md hover:bg-blue-700 transition"
+            className="w-full bg-sky-600 text-white py-2 rounded-md hover:bg-sky-700 transition"
             disabled={loading}
           >
           {loading ? "Sending..." : dict.contact.form.submit}
@@ -106,8 +106,20 @@ export default function Contact() {
         {/* Contact Details */}
         <div className="bg-gray-100 shadow-lg rounded-lg p-6">
           <h2 className="text-2xl font-bold mb-4">{dict.contact.location?.title}</h2>
-          <p className="text-lg flex items-center gap-2"><span className="font-semibold">📍</span> {dict.contact.location?.address}</p>
-          <p className="text-lg flex items-center gap-2 mt-2"><span className="font-semibold">📞</span> {dict.contact.location?.phone}</p>
+          <p className="text-lg flex items-center gap-2">
+            <span className="font-semibold">📍</span> {dict.contact.location?.address}
+          </p>
+          <p className="text-lg flex items-center gap-2 mt-2">
+            <span className="font-semibold">📞</span>
+            <a
+              href="https://wa.me/201119389769"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sky-600 hover:underline"
+            >
+              {dict.contact.location?.phone}
+            </a>
+          </p>
         </div>
       </div>
 
